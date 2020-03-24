@@ -2,7 +2,7 @@
 <plugin version="0.3.3">
     <TES4 flags="0x00000000" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
         <HEDR>
-            <struct version="1.70000005" numRecords="218" nextObjectID="00008457"/>
+            <struct version="1.70000005" numRecords="212" nextObjectID="00008457"/>
         </HEDR>
         <CNAM>Parapets</CNAM>
         <MAST>Skyrim.esm</MAST>
@@ -281,71 +281,6 @@
                         </XPRM>
                         <DATA>
                             <struct position="109928.578,105979.297,-8224.76855" rotation="0,-0,4.97418642"/>
-                        </DATA>
-                    </REFR>
-                    <REFR flags="0x00000c00" id="000acb72" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x000b">
-                        <EDID>MG08BarrierCollisionRef</EDID>
-                        <VMAD version="5" format="2">
-                            <script name="MG08BarrierRefScript" status="0">
-                                <property name="MG07StaffEnchantment" type="1" status="1">
-                                    <object formID="000239a0" alias="65535" unused="0x0000"/>
-                                </property>
-                                <property name="MG08StaffEffect" type="1" status="1">
-                                    <object formID="000239a1" alias="65535" unused="0x0000"/>
-                                </property>
-                                <property name="MG07StaffEffect" type="1" status="1">
-                                    <object formID="000239a1" alias="65535" unused="0x0000"/>
-                                </property>
-                                <property name="MG08BarrierCollisionRef" type="1" status="1">
-                                    <object formID="000acb72" alias="65535" unused="0x0000"/>
-                                </property>
-                                <property name="MG08" type="1" status="1">
-                                    <object formID="0001f258" alias="65535" unused="0x0000"/>
-                                </property>
-                            </script>
-                        </VMAD>
-                        <NAME>00000021</NAME>
-                        <XPRM>
-                            <struct bounds="574,313,521" color="1,1,0" unknown0="0.150000006" unknown1="0x00000001"/>
-                        </XPRM>
-                        <XTRI>1</XTRI>
-                        <XLRL>00076f3a</XLRL>
-                        <DATA>
-                            <struct position="113932.742,109135.492,-7885.01025" rotation="0,-0,3.92699099"/>
-                        </DATA>
-                    </REFR>
-                    <REFR flags="0x00000400" id="00050785" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
-                        <EDID>MG05WinterholdTriggerRef</EDID>
-                        <NAME>00050783</NAME>
-                        <XPRM>
-                            <struct bounds="100.265648,619.882813,101.69725" color="0.800000012,0.301960796,0.200000003" unknown0="0.150000006" unknown1="0x00000001"/>
-                        </XPRM>
-                        <XLRL>00018a51</XLRL>
-                        <DATA>
-                            <struct position="109815.508,105584.414,-8412.51367" rotation="0,0,4.99778891"/>
-                        </DATA>
-                    </REFR>
-                    <REFR flags="0x00000400" id="0006f032" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0002">
-                        <EDID>MG01NiryaTravelMarker1</EDID>
-                        <NAME>00000034</NAME>
-                        <XLRL>00018a51</XLRL>
-                        <DATA>
-                            <struct position="110196.406,106964.344,-8512" rotation="0,-0,0.273024946"/>
-                        </DATA>
-                    </REFR>
-                    <REFR flags="0x00000400" id="0006f07d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0002">
-                        <EDID>MG01NiryaTravelMarker2</EDID>
-                        <NAME>00000034</NAME>
-                        <XLRL>00076f3a</XLRL>
-                        <DATA>
-                            <struct position="111429.07,107188.289,-8128" rotation="0,-0,1.83940995"/>
-                        </DATA>
-                    </REFR>
-                    <REFR flags="0x00000400" id="0009f28c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0006">
-                        <NAME>00000034</NAME>
-                        <XLRL>00076f3a</XLRL>
-                        <DATA>
-                            <struct position="113296.281,108555.078,-8119.35156" rotation="0,-0,0.74153316"/>
                         </DATA>
                     </REFR>
                 </GRUP>
@@ -3440,6 +3375,64 @@
         </QUST>
     </GRUP>
     <GRUP label="PACK" groupType="0" day="157" month="39" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <PACK flags="0x00000000" id="0006f089" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>MG01NiryaTravel1</EDID>
+            <PKDT>
+                <struct miscFlags="0x00002404" packageType="18" interruptOverride="0" preferredSpeed="3" unknown="0x31" interruptFlags="0x0000feec"/>
+            </PKDT>
+            <PSDT>
+                <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0"/>
+            </PSDT>
+            <CTDA>
+                <ctda operator="0x01" unknown0="0x00,0x00,0x00" comparisonValueFloat="30" functionIndex="58" padding="0x00,0x00" param1="0x0001f251" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="10" functionIndex="58" padding="0x00,0x00" param1="0x000c9f08" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <PKCU>
+                <struct unknown0="0x0000000a" packageTemplate="00069665" unknown1="0x00000008"/>
+            </PKCU>
+            <ANAM>SingleRef</ANAM>
+            <PTDA>000000001400000000000000</PTDA>
+            <ANAM>Int</ANAM>
+            <CNAM>01000000</CNAM>
+            <ANAM>Location</ANAM>
+            <PLDT>0000000032F0060000000000</PLDT>
+            <ANAM>Float</ANAM>
+            <CNAM>00007A43</CNAM>
+            <ANAM>Float</ANAM>
+            <CNAM>0000C843</CNAM>
+            <ANAM>Float</ANAM>
+            <CNAM>0000F042</CNAM>
+            <ANAM>Float</ANAM>
+            <CNAM>00008043</CNAM>
+            <ANAM>Bool</ANAM>
+            <CNAM>00</CNAM>
+            <ANAM>Bool</ANAM>
+            <CNAM>01</CNAM>
+            <ANAM>Float</ANAM>
+            <CNAM>0000FA43</CNAM>
+            <UNAM>11</UNAM>
+            <UNAM>2</UNAM>
+            <UNAM>3</UNAM>
+            <UNAM>4</UNAM>
+            <UNAM>15</UNAM>
+            <UNAM>5</UNAM>
+            <UNAM>6</UNAM>
+            <UNAM>13</UNAM>
+            <UNAM>17</UNAM>
+            <UNAM>19</UNAM>
+            <XNAM>20</XNAM>
+            <POBA/>
+            <INAM>00000000</INAM>
+            <PDTO>0000000000000000</PDTO>
+            <POEA/>
+            <INAM>00000000</INAM>
+            <PDTO>0000000000000000</PDTO>
+            <POCA/>
+            <INAM>00000000</INAM>
+            <PDTO>0000000000000000</PDTO>
+        </PACK>
         <PACK flags="0x00000000" id="0006f097" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
             <EDID>MG01NiryaCastMageLight1</EDID>
             <PKDT>
@@ -4800,153 +4793,6 @@
             <UNAM>2</UNAM>
             <UNAM>4</UNAM>
             <XNAM>5</XNAM>
-            <POBA/>
-            <INAM>00000000</INAM>
-            <PDTO>0000000000000000</PDTO>
-            <POEA/>
-            <INAM>00000000</INAM>
-            <PDTO>0000000000000000</PDTO>
-            <POCA/>
-            <INAM>00000000</INAM>
-            <PDTO>0000000000000000</PDTO>
-        </PACK>
-        <PACK flags="0x00000000" id="00037996" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
-            <EDID>MG01NiryaForcegreet</EDID>
-            <PKDT>
-                <struct miscFlags="0x00000000" packageType="18" interruptOverride="0" preferredSpeed="2" unknown="0x00" interruptFlags="0x0000ffff"/>
-            </PKDT>
-            <PSDT>
-                <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0"/>
-            </PSDT>
-            <CTDA>
-                <ctda operator="0x80" unknown0="0x00,0x00,0x00" comparisonValueFloat="30" functionIndex="58" padding="0x00,0x00" param1="0x0001f251" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
-            </CTDA>
-            <CTDA>
-                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="1" functionIndex="629" padding="0x00,0x00" param1="0x0001f251" param2="0xc718b068" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
-            </CTDA>
-            <CIS2>::NiryaSpellSuccess_var</CIS2>
-            <PKCU>
-                <struct unknown0="0x00000014" packageTemplate="0003c1c4" unknown1="0x00000012"/>
-            </PKCU>
-            <ANAM>Topic</ANAM>
-            <PDTO>0000000009F80100</PDTO>
-            <ANAM>Location</ANAM>
-            <PLDT>020000000000000096000000</PLDT>
-            <ANAM>SingleRef</ANAM>
-            <PTDA>000000001400000000000000</PTDA>
-            <ANAM>Location</ANAM>
-            <PLDT>000000001400000088130000</PLDT>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Location</ANAM>
-            <PLDT>0C00000000000000EE020000</PLDT>
-            <ANAM>Bool</ANAM>
-            <CNAM>01</CNAM>
-            <ANAM>Float</ANAM>
-            <CNAM>00004842</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Location</ANAM>
-            <PLDT>000000001400000096000000</PLDT>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <UNAM>7</UNAM>
-            <UNAM>8</UNAM>
-            <UNAM>17</UNAM>
-            <UNAM>22</UNAM>
-            <UNAM>26</UNAM>
-            <UNAM>40</UNAM>
-            <UNAM>29</UNAM>
-            <UNAM>30</UNAM>
-            <UNAM>31</UNAM>
-            <UNAM>32</UNAM>
-            <UNAM>33</UNAM>
-            <UNAM>34</UNAM>
-            <UNAM>36</UNAM>
-            <UNAM>62</UNAM>
-            <UNAM>65</UNAM>
-            <UNAM>67</UNAM>
-            <UNAM>69</UNAM>
-            <UNAM>75</UNAM>
-            <UNAM>79</UNAM>
-            <UNAM>81</UNAM>
-            <XNAM>56</XNAM>
-            <POBA/>
-            <INAM>00000000</INAM>
-            <PDTO>0000000000000000</PDTO>
-            <POEA/>
-            <INAM>00000000</INAM>
-            <PDTO>0000000000000000</PDTO>
-            <POCA/>
-            <INAM>00000000</INAM>
-            <PDTO>0000000000000000</PDTO>
-        </PACK>
-        <PACK flags="0x00000000" id="0006f089" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
-            <EDID>MG01NiryaTravel1</EDID>
-            <PKDT>
-                <struct miscFlags="0x00002404" packageType="18" interruptOverride="0" preferredSpeed="3" unknown="0x31" interruptFlags="0x0000feec"/>
-            </PKDT>
-            <PSDT>
-                <struct month="255" dayOfWeek="255" date="0" hour="255" minute="255" unknown="0x00|0x00|0x00" duration="0"/>
-            </PSDT>
-            <CTDA>
-                <ctda operator="0x01" unknown0="0x00,0x00,0x00" comparisonValueFloat="30" functionIndex="58" padding="0x00,0x00" param1="0x0001f251" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
-            </CTDA>
-            <CTDA>
-                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="10" functionIndex="58" padding="0x00,0x00" param1="0x000c9f08" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
-            </CTDA>
-            <PKCU>
-                <struct unknown0="0x0000000a" packageTemplate="00069665" unknown1="0x00000008"/>
-            </PKCU>
-            <ANAM>SingleRef</ANAM>
-            <PTDA>000000001400000000000000</PTDA>
-            <ANAM>Int</ANAM>
-            <CNAM>01000000</CNAM>
-            <ANAM>Location</ANAM>
-            <PLDT>0000000032F0060000000000</PLDT>
-            <ANAM>Float</ANAM>
-            <CNAM>00007A43</CNAM>
-            <ANAM>Float</ANAM>
-            <CNAM>0000C843</CNAM>
-            <ANAM>Float</ANAM>
-            <CNAM>0000F042</CNAM>
-            <ANAM>Float</ANAM>
-            <CNAM>00008043</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>00</CNAM>
-            <ANAM>Bool</ANAM>
-            <CNAM>01</CNAM>
-            <ANAM>Float</ANAM>
-            <CNAM>0000FA43</CNAM>
-            <UNAM>11</UNAM>
-            <UNAM>2</UNAM>
-            <UNAM>3</UNAM>
-            <UNAM>4</UNAM>
-            <UNAM>15</UNAM>
-            <UNAM>5</UNAM>
-            <UNAM>6</UNAM>
-            <UNAM>13</UNAM>
-            <UNAM>17</UNAM>
-            <UNAM>19</UNAM>
-            <XNAM>20</XNAM>
             <POBA/>
             <INAM>00000000</INAM>
             <PDTO>0000000000000000</PDTO>
